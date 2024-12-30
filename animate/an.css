@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af, #2c3e50);
+    background-size: 400% 400%;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+
+.coming-soon {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.site-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.site-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+.animated-text .letter {
+    display: inline-block;
+    opacity: 0;
+    transform-origin: center; 
+}
+
+.letter {
+    display: inline-block;
+    opacity: 0;
+    transform-origin: center;
+}
+
+.letter[style*="&nbsp;"] {
+    width: 0.5em; /* Регулює ширину пробілу */
+}
